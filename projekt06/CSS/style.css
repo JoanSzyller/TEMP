@@ -1,0 +1,48 @@
+body {
+    background-color: powderblue;
+}
+
+button {
+    margin: 20px;
+    padding: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    align-items: center;   /* Y */
+    justify-content: center;  /* X */
+}
+
+/*
+.box_items {
+    width: 600px;
+    margin: auto;
+}
+*/
+
+.box_items {
+    display: table; 
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.box_item {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    padding: 8px 15px;  
+    border: 1px solid silver; 
+}
+
+.box:nth-child(2) {
+    width: 250px;
+}
+
+.box:nth-child(3) {
+    width: 120px;
+    text-align: right;
+}
